@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
 
   s.name         = "GQDownTime"
   s.version      = "0.0.1"
-  s.summary      = "短信倒计时验证码"
+  s.summary      = "短信倒计时"
   s.description  = <<-DESC
-                       短信倒计时封装
+                       短信倒计时验证码封装
                    DESC
   s.homepage     = "https://github.com/zhanggaoqiang/GQDownTime"
   s.license      = "MIT"

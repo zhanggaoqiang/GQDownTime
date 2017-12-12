@@ -11,28 +11,9 @@
 typedef void(^EndTime)(void);
 typedef void(^WorkTime)(NSInteger work);
 @interface GQDownTime : NSObject
-/**
- 倒计时结束的回调
- */
 @property(nonatomic,copy)EndTime endtime;
-/**
- 正在倒计时的回调
- */
 @property(nonatomic,copy)WorkTime work;
 
-/**
- 创建单例
-
- @return
- */
 +(instancetype)sharedGQDownTime;
-/**
- 传入时间
-
- @param time
- */
 -(void)initWithTime:(int)time;
-
-
-
 @end
