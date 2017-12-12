@@ -4,11 +4,6 @@
 //
 //  Created by 张高强 on 2017/12/12.
 //  Copyright © 2017年 eamon. All rights reserved.
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wdocumentation"
-//
-
-//
 
 
 
@@ -24,4 +19,3 @@ typedef void(^WorkTime)(NSInteger work);
 -(void)initWithTime:(int)time;
 @end
 
-#pragma clang diagnostic pop
